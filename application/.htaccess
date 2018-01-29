@@ -1,0 +1,6 @@
+
+RewriteEngine On
+RewriteBase /project_iot_2/
+RewriteCond $1 !^(index\.php)
+
+RewriteRule ^(.*)$ index.php [L]
